@@ -45,7 +45,7 @@ export default function Hero() {
                         ))}
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" className="text-base font-semibold leading-6 text-morado-300">
+                        <a href="#" className="rounded-3xl bg-morado-300 px-8 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400">
                             Contacto
                         </a>
                     </div>
@@ -110,7 +110,7 @@ export default function Hero() {
                             <h1 className="text-5xl font-extrabold tracking-tight text-morado-300 sm:text-7xl pb-8">
                                 Psicología<br />en línea
                             </h1>
-                            <div className="mt-6 text-xl sm:text-3xl font-bold sm:space-y-4 text-naranja-300">
+                            <div className="mt-6 text-xl sm:text-3xl font-bold sm:space-y-3 text-naranja-300 uppercase">
                                 <p>Ansiedad</p>
                                 <p className='text-morado-300'>Depresión</p>
                                 <p>Estrés</p>
@@ -119,6 +119,7 @@ export default function Hero() {
                                 <p className='text-morado-300'>Pareja y familia</p>
                                 <p>Personalidad</p>
                             </div>
+                            {/*
                             <div className="mt-10 flex items-center justify-center gap-x-6">
                                 <a
                                     href="#"
@@ -130,7 +131,8 @@ export default function Hero() {
                                     Acerca de Carolina Chávez
                                 </a>
                             </div>
-                        </div>
+                            */}
+                        </div>{}
                     </div>
                 </div>
             </div>

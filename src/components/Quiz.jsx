@@ -12,7 +12,7 @@ export default function Quiz() {
 
             <div className="relative isolate overflow-hidden pt-14">
                 <img
-                    src=""
+                    src="/img/bg_conocernos.png"
                     alt=""
                     className="absolute inset-0 -z-10 h-full w-full object-cover"
                 />
@@ -21,13 +21,13 @@ export default function Quiz() {
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                             Primero vamos a conocernos
                         </h1>
-                        <p className="mt-6 text-lg leading-8 text-gray-300">
+                        <p className="mt-6 text-lg leading-8 text-white">
                             Antes de iniciar una terapia, es ideal conocer primeramente a tu terapeuta, así como tu terapeuta conocer tus necesidades por ello se ofrece una sesión cognoscitiva gratuita de 25 minutos para este encuentro.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
                                 href="#"
-                                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                                className="rounded-3xl bg-white px-5 py-4 text-sm font-semibold text-indigo-400 shadow-sm hover:bg-orange-500 hover:text-white uppercase"
                             >
                                 Iniciar el cuestionario
                             </a>
