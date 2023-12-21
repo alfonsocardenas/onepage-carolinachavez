@@ -27,7 +27,7 @@ export default function Quiz() {
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
                                 href="#"
-                                className="rounded-3xl bg-white px-5 py-4 text-sm font-semibold text-indigo-400 shadow-sm hover:bg-orange-500 hover:text-white uppercase"
+                                className="rounded-3xl bg-orange-500 px-5 py-4 text-sm font-semibold text-white shadow-sm hover:bg-naranja-300 hover:text-white uppercase"
                             >
                                 Iniciar el cuestionario
                             </a>
